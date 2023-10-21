@@ -1,9 +1,13 @@
-# Python program to check if the input number is odd or even.
-# A number is even if division by 2 gives a remainder of 0.
-# If the remainder is 1, it is an odd number.
+x = 24
 
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
+if x % 24 == 0:
+	print(x,"Is Even Number")
 else:
-   print("{0} is Odd".format(num))
+	print(x, "Is Odd Number")
+	
+y = 19
+
+if y % 19 == 0:
+	print(y,"Is Even Number")
+else:
+	print(y, "Is Odd Number")
