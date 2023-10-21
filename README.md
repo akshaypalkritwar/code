@@ -1,1 +1,1 @@
-# code
+prime number code
